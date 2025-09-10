@@ -11,9 +11,61 @@
             background-color: white;
             margin: 100px auto 100px auto;
         }
+        .eye{position: absolute;
+             height: 30px;
+             width: 25px;
+             background-color:black;
+             border: 1px solid black;
+             border-radius: 50%;
+             top: 25px;
+            
+        }
+        .eye1{
+            left: 25px;
+            rotate: 30deg;
+        }
+        .eye2{
+            right: 25px;
+            rotate: -30deg;
+        }
+        .eyeball1{position: absolute;
+                height: 15px;
+                width: 15px;
+                background-color: white;
+                border-radius: 50%;
+                right: 2px;
+                top: 8px;
+        }
+        .eyeball2{position: absolute;
+                height: 15px;
+                width: 15px;
+                background-color: white;
+                border-radius: 50%;
+                left: 2px;
+                top: 8px;
+        }
+        .dot1{position: absolute;
+            height: 7px;
+        width: 7px;
+        background-color: black;
+        border-radius: 50%;
+        left: 5px;
+        bottom:3px;
+        }
+        .dot2{position: absolute;
+            height: 7px;
+        width: 7px;
+        background-color: black;
+        border-radius: 50%;
+        right:5px;
+        bottom: 4px;
+        }
     </style>
 </head>
 <body>
-   <div class="face"></div> 
+   <div class="face">
+    <div class="eye eye1"><div class="eyeball1"><div class="dot1"></div></div></div>
+    <div class="eye eye2"><div class="eyeball2"><div class="dot2"></div></div></div>
+   </div> 
 </body>
 </html>
